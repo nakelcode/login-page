@@ -1,9 +1,14 @@
 body{
     background-color: #000000;
     color:#ffffff;
-    margin:0;
+    margin:auto;
     font-family: "Rubik", sans-serif;
+    width: 100%;
       
+}
+html{
+    margin: 0;
+    scroll-behavior: smooth;
 }
 .page{
     display: flex;
