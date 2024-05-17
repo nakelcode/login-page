@@ -1,0 +1,135 @@
+body{
+    background-color: #000000;
+    color:#ffffff;
+    margin:0;
+    font-family: "Rubik", sans-serif;
+      
+}
+.page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+.page img{
+    width:300px;
+    height:300px;
+
+}
+.page h2{
+    font-size: 170%;
+    font-weight: 400;
+}
+.log{
+    margin:30px;
+}
+label{
+    text-align: left;
+    font-family: "Roboto Slab", serif;
+}
+#pass{
+    margin-top:10px;
+}
+input[type="text"]{
+    background-color: #ffffff;
+    color:#000000;
+    border-radius: 4px;
+    border: 1px solid #ffffff;
+    padding: 6px;
+    font-family: "Rubik", sans-serif;
+    font-size: 15px;
+}
+input[type="password"]{
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 4px;
+    border: 1px solid #ffffff;
+    padding: 6px;
+    font-family: "Rubik", sans-serif;
+    font-size: 15px;
+}
+#togglePassword {
+    padding: 6px;
+    font-size: 12px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-family: "Rubik", sans-serif;
+
+}
+.proj {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.3rem 4rem;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    backface-visibility: hidden;
+    border: 0.3rem solid transparent;
+    border-radius: 3rem;
+    margin-top:15px;
+    background-color: #f9532d;
+  }
+  
+  
+  .proj {
+    border-color:#f9532d;
+    transition: transform 0.2s cubic-bezier(0.235, 0, 0.05, 0.95);
+  }
+  
+  .proj:hover {
+    transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0) !important;
+    color:#ffffff;
+    background-color:#f9532d;
+  }
+  .fp{
+    margin-left: 80px;
+    margin-top: 20px;
+    font-size: 90%;
+    text-decoration: none;
+    color: #ffffff;
+    opacity:0.7;
+  }
+  .signup{
+    text-align: center;
+  }
+  .fa{
+    font-size: 30px;
+    width: 25px;
+    height:25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid #000000;
+  
+  }
+  .fa:hover{
+    opacity: 0.7;
+  }
+  .fa-twitter{
+    background: #ffffff;
+    color: #000000;
+  }
+  .fa-facebook{
+    background: #0000ff;
+    color: #ffffff;
+  }
+  .fa-google{
+    background: #f9532d;
+    color: #ffffff;
+  }
+  .media{
+    text-align: center;
+  }
+  .signupp{
+    text-align: center;
+  }
+  .sign{
+    margin-top:7px;
+  }
